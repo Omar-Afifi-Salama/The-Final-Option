@@ -1,0 +1,106 @@
+{
+    "id": "bio_genetics",
+    "title": "Genetics & Molecular Biology",
+    "questions": [
+        {
+            "question": "What enzyme is responsible for unwinding the DNA double helix structure ahead of the replication fork?",
+            "answers": [
+                "DNA Polymerase",
+                "DNA Ligase",
+                "DNA Helicase",
+                "RNA Primase"
+            ],
+            "correctAnswer": "DNA Helicase"
+        },
+        {
+            "question": "Which nitrogenous base is found in RNA molecules but is completely absent in DNA?",
+            "answers": [
+                "Adenine",
+                "Thymine",
+                "Uracil",
+                "Guanine"
+            ],
+            "correctAnswer": "Uracil"
+        },
+        {
+            "question": "What process describes the synthesis of an RNA molecule from a DNA template within the nucleus?",
+            "answers": [
+                "Translation",
+                "Transcription",
+                "Replication",
+                "Reverse Transcription"
+            ],
+            "correctAnswer": "Transcription"
+        },
+        {
+            "question": "If a genetic cross involves two individuals heterozygous for a single trait (Aa x Aa), what is the expected phenotypic ratio of the offspring assuming complete dominance?",
+            "answers": [
+                "1:2:1",
+                "3:1",
+                "9:3:3:1",
+                "1:1"
+            ],
+            "correctAnswer": "3:1"
+        },
+        {
+            "question": "What is the functional term for a three-nucleotide sequence on messenger RNA (mRNA) that codes for a specific amino acid?",
+            "answers": [
+                "Anticodon",
+                "Codon",
+                "Intron",
+                "Exon"
+            ],
+            "correctAnswer": "Codon"
+        },
+        {
+            "question": "Which structures located at the ends of eukaryotic chromosomes consist of repetitive DNA sequences that protect chromosomes from degradation?",
+            "answers": [
+                "Centromeres",
+                "Telomeres",
+                "Kinetochores",
+                "Histones"
+            ],
+            "correctAnswer": "Telomeres"
+        },
+        {
+            "question": "What type of mutation occurs when a single nucleotide change results in a codon that specifies a completely different amino acid?",
+            "answers": [
+                "Silent Mutation",
+                "Missense Mutation",
+                "Nonsense Mutation",
+                "Frameshift Mutation"
+            ],
+            "correctAnswer": "Missense Mutation"
+        },
+        {
+            "question": "What are the non-coding segments of a pre-mRNA transcript that are spliced out and removed before translation occurs?",
+            "answers": [
+                "Exons",
+                "Introns",
+                "Promoters",
+                "Transposons"
+            ],
+            "correctAnswer": "Introns"
+        },
+        {
+            "question": "Which molecular biology technique uses thermal cycling to amplify a single or few copies of a piece of DNA across several orders of magnitude?",
+            "answers": [
+                "Gel Electrophoresis",
+                "Western Blotting",
+                "Polymerase Chain Reaction (PCR)",
+                "Sanger Sequencing"
+            ],
+            "correctAnswer": "Polymerase Chain Reaction (PCR)"
+        },
+        {
+            "question": "Who are the two scientists credited with discovering and describing the double-helix structure of DNA in 1953?",
+            "answers": [
+                "Gregor Mendel & Thomas Hunt Morgan",
+                "James Watson & Francis Crick",
+                "Louis Pasteur & Robert Koch",
+                "Charles Darwin & Alfred Russel Wallace"
+            ],
+            "correctAnswer": "James Watson & Francis Crick"
+        }
+    ]
+}

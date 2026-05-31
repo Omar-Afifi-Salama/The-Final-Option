@@ -1,0 +1,106 @@
+{
+    "id": "hist_cold_war",
+    "title": "The Cold War Era",
+    "questions": [
+        {
+            "question": "What term was coined by Winston Churchill in 1946 to describe the geopolitical barrier dividing Soviet-controlled Europe from the West?",
+            "answers": [
+                "The Berlin Wall",
+                "The Iron Curtain",
+                "The Buffer Zone",
+                "The Great Divide"
+            ],
+            "correctAnswer": "The Iron Curtain"
+        },
+        {
+            "question": "Which foreign policy initiative, implemented by the U.S. in 1948, provided over $13 billion in economic aid to help rebuild Western Europe?",
+            "answers": [
+                "The Truman Doctrine",
+                "The Marshall Plan",
+                "The Eisenhower Doctrine",
+                "The Monroe Doctrine"
+            ],
+            "correctAnswer": "The Marshall Plan"
+        },
+        {
+            "question": "The proxy war fought between UN-backed southern forces and Soviet/Chinese-backed northern forces from 1950 to 1953 took place where?",
+            "answers": [
+                "Vietnam",
+                "Korea",
+                "Germany",
+                "Cuba"
+            ],
+            "correctAnswer": "Korea"
+        },
+        {
+            "question": "Which 13-day geopolitical confrontation in October 1962 brought the United States and the Soviet Union closest to a full-scale nuclear war?",
+            "answers": [
+                "The Berlin Blockade",
+                "The Cuban Missile Crisis",
+                "The Suez Crisis",
+                "The U-2 Incident"
+            ],
+            "correctAnswer": "The Cuban Missile Crisis"
+        },
+        {
+            "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957, which triggered the Space Race?",
+            "answers": [
+                "Vostok 1",
+                "Sputnik 1",
+                "Soyuz",
+                "Apollo 11"
+            ],
+            "correctAnswer": "Sputnik 1"
+        },
+        {
+            "question": "Which treaty organization was formed by the Soviet Union and its Eastern Bloc satellite states in 1955 as a direct response to NATO?",
+            "answers": [
+                "The Warsaw Pact",
+                "COMECON",
+                "The European Economic Community",
+                "SEATO"
+            ],
+            "correctAnswer": "The Warsaw Pact"
+        },
+        {
+            "question": "Who was the Soviet leader who instituted the reform policies of 'Glasnost' (openness) and 'Perestroika' (restructuring) in the late 1980s?",
+            "answers": [
+                "Nikita Khrushchev",
+                "Leonid Brezhnev",
+                "Mikhail Gorbachev",
+                "Boris Yeltsin"
+            ],
+            "correctAnswer": "Mikhail Gorbachev"
+        },
+        {
+            "question": "In what year did the Berlin Wall open, leading to the eventual reunification of Germany and symbolic end of the Cold War?",
+            "answers": [
+                "1985",
+                "1989",
+                "1991",
+                "1993"
+            ],
+            "correctAnswer": "1989"
+        },
+        {
+            "question": "What U.S. foreign policy concept suggested that if one country fell to communism, surrounding nations would inevitably follow?",
+            "answers": [
+                "Containment Theory",
+                "The Domino Theory",
+                "Détente",
+                "Brinkmanship"
+            ],
+            "correctAnswer": "The Domino Theory"
+        },
+        {
+            "question": "Which failed military invasion of Cuba in 1961 was organized by the U.S. CIA using Cuban exiles to overthrow Fidel Castro?",
+            "answers": [
+                "The Gulf of Tonkin Incident",
+                "The Bay of Pigs Invasion",
+                "Operation Urgent Fury",
+                "The Cuban Airlift"
+            ],
+            "correctAnswer": "The Bay of Pigs Invasion"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "chem_organic",
+    "title": "Organic Chemistry",
+    "questions": [
+        {
+            "question": "What is the term used to describe non-superimposable mirror-image molecules that exhibit optical activity?",
+            "answers": [
+                "Diastereomers",
+                "Enantiomers",
+                "Constitutional Isomers",
+                "Anomers"
+            ],
+            "correctAnswer": "Enantiomers"
+        },
+        {
+            "question": "Which functional group is characterized by a carbon atom doubly bonded to an oxygen atom (C=O)?",
+            "answers": [
+                "Hydroxyl Group",
+                "Carbonyl Group",
+                "Ether Group",
+                "Amino Group"
+            ],
+            "correctAnswer": "Carbonyl Group"
+        },
+        {
+            "question": "What type of hybridized atomic orbitals are formed around the carbon atoms in an alkene like ethene (C2H4)?",
+            "answers": [
+                "sp",
+                "sp2",
+                "sp3",
+                "sp3d"
+            ],
+            "correctAnswer": "sp2"
+        },
+        {
+            "question": "Which rule is used to predict the major regiochemical product of an electrophilic addition reaction to an unsymmetrical alkene?",
+            "answers": [
+                "Zaitsev's Rule",
+                "Markovnikov's Rule",
+                "Hund's Rule",
+                "Hückel's Rule"
+            ],
+            "correctAnswer": "Markovnikov's Rule"
+        },
+        {
+            "question": "What criteria must a planar, monocyclic, conjugated ring system meet to be classified as aromatic according to Hückel's Rule?",
+            "answers": [
+                "It must have 4n pi electrons",
+                "It must have 4n + 2 pi electrons",
+                "It must contain nitrogen atoms",
+                "It must have alternating single and double bonds only"
+            ],
+            "correctAnswer": "It must have 4n + 2 pi electrons"
+        },
+        {
+            "question": "What is the common name of the simplest aromatic hydrocarbon molecule, with the chemical formula C6H6?",
+            "answers": [
+                "Toluene",
+                "Benzene",
+                "Cyclohexane",
+                "Naphthalene"
+            ],
+            "correctAnswer": "Benzene"
+        },
+        {
+            "question": "Which organic reaction mechanism is characterized as a bimolecular nucleophilic substitution occurring in a single concerted step with inversion of configuration?",
+            "answers": [
+                "SN1",
+                "SN2",
+                "E1",
+                "E2"
+            ],
+            "correctAnswer": "SN2"
+        },
+        {
+            "question": "What compound is produced by the condensation reaction between a carboxylic acid and an alcohol?",
+            "answers": [
+                "Ether",
+                "Ester",
+                "Aldehyde",
+                "Ketone"
+            ],
+            "correctAnswer": "Ester"
+        },
+        {
+            "question": "What is the term for different spatial arrangements of molecules that can be interconverted exclusively by rotating around a single sigma bond?",
+            "answers": [
+                "Conformations",
+                "Stereoisomers",
+                "Resonance Structures",
+                "Tautomers"
+            ],
+            "correctAnswer": "Conformations"
+        },
+        {
+            "question": "Which reagent is commonly used to test for the presence of unsaturation (double or triple bonds) in an organic sample by turning from reddish-brown to colorless?",
+            "answers": [
+                "Potassium Permanganate",
+                "Bromine Water",
+                "Tollens' Reagent",
+                "Lucas Reagent"
+            ],
+            "correctAnswer": "Bromine Water"
+        }
+    ]
+}

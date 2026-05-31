@@ -1,0 +1,106 @@
+{
+    "id": "math_linear_algebra",
+    "title": "Linear Algebra",
+    "questions": [
+        {
+            "question": "What is a scalar value lambda called if there exists a non-zero vector v such that A*v = lambda*v for a square matrix A?",
+            "answers": [
+                "Eigenvalue",
+                "Eigenvector",
+                "Determinant",
+                "Trace"
+            ],
+            "correctAnswer": "Eigenvalue"
+        },
+        {
+            "question": "If a square matrix has a determinant equal to exactly 0, what can be definitively said about the matrix?",
+            "answers": [
+                "It is symmetric",
+                "It is invertible",
+                "It is singular (not invertible)",
+                "It is orthogonal"
+            ],
+            "correctAnswer": "It is singular (not invertible)"
+        },
+        {
+            "question": "What operation combines the diagonal elements of a square matrix by summing them up?",
+            "answers": [
+                "Determinant",
+                "Rank",
+                "Trace",
+                "Transpose"
+            ],
+            "correctAnswer": "Trace"
+        },
+        {
+            "question": "What does the Rank-Nullity Theorem state for a linear transformation represented by an m x n matrix?",
+            "answers": [
+                "Rank + Nullity = m",
+                "Rank + Nullity = n",
+                "Rank * Nullity = n",
+                "Rank - Nullity = m"
+            ],
+            "correctAnswer": "Rank + Nullity = n"
+        },
+        {
+            "question": "Which process is used to orthogonalize a set of vectors in an inner product space?",
+            "answers": [
+                "Gauss-Jordan Elimination",
+                "Gram-Schmidt Process",
+                "LU Decomposition",
+                "Singular Value Decomposition"
+            ],
+            "correctAnswer": "Gram-Schmidt Process"
+        },
+        {
+            "question": "If two vectors have an inner (dot) product equal to zero, what is their geometric relationship?",
+            "answers": [
+                "They are parallel",
+                "They are orthogonal (perpendicular)",
+                "They point in opposite directions",
+                "They have the same length"
+            ],
+            "correctAnswer": "They are orthogonal (perpendicular)"
+        },
+        {
+            "question": "What type of square matrix has the property that its transpose is also equal to its inverse?",
+            "answers": [
+                "Symmetric Matrix",
+                "Skew-symmetric Matrix",
+                "Orthogonal Matrix",
+                "Identity Matrix"
+            ],
+            "correctAnswer": "Orthogonal Matrix"
+        },
+        {
+            "question": "What is the dimension of the vector space spanned by the columns of a matrix called?",
+            "answers": [
+                "Nullity",
+                "Null Space",
+                "Rank",
+                "Kernel"
+            ],
+            "correctAnswer": "Rank"
+        },
+        {
+            "question": "Which decomposition splits a matrix into an orthogonal matrix, a diagonal matrix of singular values, and another orthogonal matrix?",
+            "answers": [
+                "QR Decomposition",
+                "Cholesky Decomposition",
+                "Singular Value Decomposition (SVD)",
+                "Eigendecomposition"
+            ],
+            "correctAnswer": "Singular Value Decomposition (SVD)"
+        },
+        {
+            "question": "What is the geometric interpretation of the absolute value of the determinant of a 2x2 matrix?",
+            "answers": [
+                "The length of the vector",
+                "The area of the parallelogram formed by the column vectors",
+                "The angle between the column vectors",
+                "The perimeter of the matrix bounds"
+            ],
+            "correctAnswer": "The area of the parallelogram formed by the column vectors"
+        }
+    ]
+}

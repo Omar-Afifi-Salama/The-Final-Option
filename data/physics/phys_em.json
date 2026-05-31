@@ -1,0 +1,106 @@
+{
+    "id": "phys_em",
+    "title": "Electricity & Magnetism",
+    "questions": [
+        {
+            "question": "Which of Maxwell's equations states that there are no isolated magnetic monopoles in nature?",
+            "answers": [
+                "Gauss's Law for Electricity",
+                "Gauss's Law for Magnetism",
+                "Faraday's Law of Induction",
+                "Ampere's Law (with Maxwell's correction)"
+            ],
+            "correctAnswer": "Gauss's Law for Magnetism"
+        },
+        {
+            "question": "What physical law describes the force of attraction or repulsion between two static point charges?",
+            "answers": [
+                "Ohm's Law",
+                "Coulomb's Law",
+                "Ampere's Law",
+                "Lenz's Law"
+            ],
+            "correctAnswer": "Coulomb's Law"
+        },
+        {
+            "question": "What phenomenon describes the generation of an electromotive force (voltage) across a electrical conductor exposed to a time-varying magnetic field?",
+            "answers": [
+                "Electrostatic Induction",
+                "Electromagnetic Induction",
+                "The Hall Effect",
+                "The Meissner Effect"
+            ],
+            "correctAnswer": "Electromagnetic Induction"
+        },
+        {
+            "question": "What is the SI unit used to measure magnetic flux density?",
+            "answers": [
+                "Weber",
+                "Tesla",
+                "Henry",
+                "Farad"
+            ],
+            "correctAnswer": "Tesla"
+        },
+        {
+            "question": "What property of a material describes its ability to store electrical energy within an electric field?",
+            "answers": [
+                "Resistance",
+                "Inductance",
+                "Capacitance",
+                "Impedance"
+            ],
+            "correctAnswer": "Capacitance"
+        },
+        {
+            "question": "According to Lenz's Law, the direction of an induced current will always do what relative to the change in magnetic flux that created it?",
+            "answers": [
+                "Amplify it",
+                "Oppose it",
+                "Align at 90 degrees to it",
+                "Have no relationship to it"
+            ],
+            "correctAnswer": "Oppose it"
+        },
+        {
+            "question": "What does a constant, steady electrical current passing through a long straight wire produce around it?",
+            "answers": [
+                "A static electric field",
+                "A circular magnetic field",
+                "An electromagnetic wave",
+                "No field at all"
+            ],
+            "correctAnswer": "A circular magnetic field"
+        },
+        {
+            "question": "What vector represents the directional energy flux density (power per unit area) of an electromagnetic wave?",
+            "answers": [
+                "Lorentz Vector",
+                "Poynting Vector",
+                "Maxwell Vector",
+                "Coulomb Vector"
+            ],
+            "correctAnswer": "Poynting Vector"
+        },
+        {
+            "question": "Which material state completely expels all internal magnetic fields via the Meissner Effect when cooled below a critical temperature?",
+            "answers": [
+                "Ferromagnet",
+                "Paramagnet",
+                "Superconductor",
+                "Semiconductor"
+            ],
+            "correctAnswer": "Superconductor"
+        },
+        {
+            "question": "What is the speed of all electromagnetic waves propagating through a perfect vacuum?",
+            "answers": [
+                "The speed of sound",
+                "Variable depending on frequency",
+                "The speed of light (c)",
+                "Infinite"
+            ],
+            "correctAnswer": "The speed of light (c)"
+        }
+    ]
+}

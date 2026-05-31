@@ -1,0 +1,442 @@
+@font-face {
+    font-family: "The Last Trunks";
+    src: url("./../fonts/theLastTrunks.woff2") format("woff2"),
+        url("./../fonts/theLastTrunks.woff") format("woff"),
+        url("./../fonts/theLastTrunks.ttf") format("trueType");
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    /* Set a fluid width container boundary */
+    width: 90%;
+    max-width: 800px;
+    /* Prevents it from getting too wide on desktop screens */
+    margin: 20px auto;
+    /* Slightly smaller top/bottom margin for tighter mobile viewports */
+    background-color: #dd2b61;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+.main-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+    /* Slightly reduced padding to save space on mobile displays */
+    border-radius: 24px;
+    gap: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    /* Crucial: ensures padding doesn't break container sizing bounds */
+}
+
+.main-container h1 {
+    font-family: "The Last Trunks", sans-serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+/* Homepage Layout Styles */
+.welcome-content {
+    text-align: center;
+    max-width: 550px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.app-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4b5563;
+}
+
+.app-description strong {
+    color: #dd2b61;
+}
+
+/* Footer Container Styling */
+.app-footer {
+    margin-top: auto;
+    /* Pushes the footer cleanly to the bottom of your fixed height card */
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.footer-link {
+    color: #4b5563;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #dd2b61;
+}
+
+.github-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-divider {
+    color: #d1d5db;
+}
+
+.license-text em {
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.view-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.view-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+/* Hidden Utility State Toggle Helper */
+.hidden {
+    display: none !important;
+}
+
+/* Dashboard Navigation Card Blueprint Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dashboard-card {
+    background-color: #f7f9fa;
+    border: 2px solid #e1e8ed;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dashboard-card:hover {
+    background-color: #ffffff;
+    border-color: #dd2b61;
+    color: #dd2b61;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(221, 43, 97, 0.1);
+}
+
+/* Quiz Header Utilities Component Context */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+#quizName {
+    font-size: 26px;
+    font-weight: 700;
+    color: #222222;
+}
+
+#quizSelectionArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Aligns content neatly to the left */
+    gap: 16px;
+}
+
+/* Ensure the title spans the full width and stands out */
+#selectedCategoryName {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444444;
+    width: 100%;
+    text-align: left;
+    /* Changes text from centered to clean left-align */
+    margin-top: 4px;
+}
+
+/* Give the back button a cleaner, modern pill style */
+#backToCategories {
+    align-self: flex-start;
+    /* Forces it to stay pinned to the left margin */
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#backToCategories:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+}
+
+/* Custom Progress Bar Implementation Layouts */
+.progress-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.progress-text {
+    color: #666666;
+}
+
+#currentIndicator {
+    color: #dd2b61;
+    font-size: 18px;
+}
+
+.custom-progress-bg {
+    width: 100%;
+    height: 12px;
+    background-color: #eef2f5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#customProgressBar {
+    height: 100%;
+    background-color: #dd2b61;
+    border-radius: 6px;
+    transition: width 0.3s ease-out;
+}
+
+/* Quiz Shell Containers Box */
+.quiz-container {
+    background-color: #f8fafc;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e2e8f0;
+}
+
+.question {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #1e293b;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+/* Advanced Semantic Label Interactive Option Triggers */
+.option-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Completely hide original browser native bullet circles cleanly */
+.option-wrapper input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.option-wrapper label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #334155;
+}
+
+.option-wrapper label:hover {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
+    transform: translateX(4px);
+}
+
+/* CSS Magic: style the label next to a checked radio input button */
+.option-wrapper input[type="radio"]:checked+label {
+    background-color: #dd2b61;
+    border-color: #dd2b61;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(221, 43, 97, 0.2);
+}
+
+/* Control Framework Buttons Setup */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.nav-btn,
+.action-btn,
+.control-btn-secondary {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.nav-btn {
+    background-color: #e2e8f0;
+    color: #475569;
+    flex: 1;
+}
+
+.nav-btn:hover:not(:disabled) {
+    background-color: #cbd5e1;
+    color: #1e293b;
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.action-btn {
+    background-color: #10b981;
+    color: #ffffff;
+    width: 100%;
+    padding: 16px;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.action-btn:hover {
+    background-color: #059669;
+    transform: translateY(-2px);
+}
+
+.control-btn-secondary {
+    background-color: transparent;
+    border: 2px solid #cbd5e1;
+    color: #64748b;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.control-btn-secondary:hover {
+    background-color: #f1f5f9;
+    color: #334155;
+    border-color: #94a3b8;
+}
+
+/* Evaluation Scoreboards View Panels */
+.score-container {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.score-container h3 {
+    font-size: 24px;
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+.score-container h1 {
+    font-size: 64px;
+    color: #dd2b61;
+}
+
+/* This block only activates on devices with screens narrower than 600px */
+@media (max-width: 600px) {
+    .main-container h1 {
+        font-size: 48px;
+        /* Scales down the logo title size so it fits horizontally */
+        letter-spacing: 2px;
+    }
+
+    .main-container {
+        padding: 24px 16px;
+        /* Squeezes margins tighter to maximize game room */
+        border-radius: 16px;
+        /* Slightly sharper corners fits mobile screens better */
+    }
+
+    .app-footer {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .footer-divider {
+        display: none;
+        /* Hide pipe layout separators when stacked vertically */
+    }
+
+    .view-title {
+        font-size: 22px;
+        /* Slightly scales down subsection titles */
+    }
+
+    /* Stack buttons vertically on small phone viewports if they get crowded */
+    .button-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-btn {
+        width: 100%;
+        /* Makes Previous and Next buttons full-width touch targets */
+    }
+
+    #quitQuiz {
+        margin-right: 10px;
+    }
+}

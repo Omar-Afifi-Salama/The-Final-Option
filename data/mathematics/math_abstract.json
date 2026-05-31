@@ -1,0 +1,106 @@
+{
+    "id": "math_abstract",
+    "title": "Abstract Algebra & Number Theory",
+    "questions": [
+        {
+            "question": "What algebraic structure requires an associative binary operation, an identity element, and inverse elements for every member?",
+            "answers": [
+                "Monoid",
+                "Group",
+                "Ring",
+                "Field"
+            ],
+            "correctAnswer": "Group"
+        },
+        {
+            "question": "What famous theorem states that a prime number p can divide an integer a^p - a for any integer a?",
+            "answers": [
+                "Fermat's Last Theorem",
+                "Fermat's Little Theorem",
+                "Euler's Totient Theorem",
+                "Wilson's Theorem"
+            ],
+            "correctAnswer": "Fermat's Little Theorem"
+        },
+        {
+            "question": "In group theory, what theorem asserts that the order of any subgroup must evenly divide the order of the parent finite group?",
+            "answers": [
+                "Lagrange's Theorem",
+                "Sylow's Theorem",
+                "Cayley's Theorem",
+                "Abel's Theorem"
+            ],
+            "correctAnswer": "Lagrange's Theorem"
+        },
+        {
+            "question": "What type of group is completely commutative, meaning a * b = b * a for all elements?",
+            "answers": [
+                "Cyclic Group",
+                "Abelian Group",
+                "Permutation Group",
+                "Normal Group"
+            ],
+            "correctAnswer": "Abelian Group"
+        },
+        {
+            "question": "What mathematical algorithm is used to find the greatest common divisor (GCD) of two integers via sequential remainders?",
+            "answers": [
+                "Sieve of Eratosthenes",
+                "Euclidean Algorithm",
+                "Extended Chinese Remainder Algorithm",
+                "RSA Key Gen"
+            ],
+            "correctAnswer": "Euclidean Algorithm"
+        },
+        {
+            "question": "Which mathematical structure is a ring that additionally allows commutative multiplication and contains multiplicative inverses for all non-zero elements?",
+            "answers": [
+                "Group",
+                "Integral Domain",
+                "Field",
+                "Vector Space"
+            ],
+            "correctAnswer": "Field"
+        },
+        {
+            "question": "What function counts the number of positive integers up to n that are relatively prime (coprime) to n?",
+            "answers": [
+                "Riemann Zeta Function",
+                "Euler's Totient Function (Phi)",
+                "Möbius Function",
+                "Divisor Function"
+            ],
+            "correctAnswer": "Euler's Totient Function (Phi)"
+        },
+        {
+            "question": "What fundamental theorem states that every integer greater than 1 either is a prime itself or can be represented as a unique product of prime numbers?",
+            "answers": [
+                "Fundamental Theorem of Arithmetic",
+                "Fundamental Theorem of Algebra",
+                "Prime Number Theorem",
+                "Goldbach's Conjecture"
+            ],
+            "correctAnswer": "Fundamental Theorem of Arithmetic"
+        },
+        {
+            "question": "How many elements does the smallest non-abelian finite group have?",
+            "answers": [
+                "4",
+                "5",
+                "6",
+                "8"
+            ],
+            "correctAnswer": "6"
+        },
+        {
+            "question": "If two integers a and b leave the same remainder when divided by a positive integer m, they are said to be what?",
+            "answers": [
+                "Coprime",
+                "Congruent modulo m",
+                "Prime factors",
+                "Inverses modulo m"
+            ],
+            "correctAnswer": "Congruent modulo m"
+        }
+    ]
+}

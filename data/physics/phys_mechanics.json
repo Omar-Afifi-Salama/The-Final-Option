@@ -1,0 +1,106 @@
+{
+    "id": "phys_mechanics",
+    "title": "Classical Mechanics",
+    "questions": [
+        {
+            "question": "What physical quantity is defined as the rate of change of linear momentum over time?",
+            "answers": [
+                "Work",
+                "Kinetic Energy",
+                "Force",
+                "Torque"
+            ],
+            "correctAnswer": "Force"
+        },
+        {
+            "question": "If an object's velocity is doubled, by what factor does its kinetic energy increase?",
+            "answers": [
+                "2",
+                "4",
+                "8",
+                "It remains the same"
+            ],
+            "correctAnswer": "4"
+        },
+        {
+            "question": "What conservation law directly stems from the structural spatial isotropy (homogeneity of orientation) of space according to Noether's Theorem?",
+            "answers": [
+                "Conservation of Energy",
+                "Conservation of Linear Momentum",
+                "Conservation of Angular Momentum",
+                "Conservation of Mass"
+            ],
+            "correctAnswer": "Conservation of Angular Momentum"
+        },
+        {
+            "question": "What is the escape velocity from the surface of Earth approximately equal to?",
+            "answers": [
+                "9.8 m/s",
+                "3 x 10^8 m/s",
+                "11.2 km/s",
+                "42.1 km/s"
+            ],
+            "correctAnswer": "11.2 km/s"
+        },
+        {
+            "question": "What is the apparent force that seems to pull a rotating object outward away from the center of its circular path when observed from a rotating frame?",
+            "answers": [
+                "Centripetal Force",
+                "Centrifugal Force",
+                "Coriolis Force",
+                "Gravitational Force"
+            ],
+            "correctAnswer": "Centrifugal Force"
+        },
+        {
+            "question": "Which mechanical quantity is defined as the cross product of the position vector and the applied force vector, causing rotational acceleration?",
+            "answers": [
+                "Angular Momentum",
+                "Torque",
+                "Moment of Inertia",
+                "Impulse"
+            ],
+            "correctAnswer": "Torque"
+        },
+        {
+            "question": "What type of collision preserves both the total linear momentum and the total kinetic energy of the system?",
+            "answers": [
+                "Inelastic Collision",
+                "Perfect Inelastic Collision",
+                "Elastic Collision",
+                "Explosive Collision"
+            ],
+            "correctAnswer": "Elastic Collision"
+        },
+        {
+            "question": "The rotational analog of mass, which measures an object's resistance to rotational acceleration, is known as what?",
+            "answers": [
+                "Angular Momentum",
+                "Moment of Inertia",
+                "Torque Coefficient",
+                "Center of Mass"
+            ],
+            "correctAnswer": "Moment of Inertia"
+        },
+        {
+            "question": "According to Kepler's First Law of Planetary Motion, what geometric shape do planetary orbits follow around the sun?",
+            "answers": [
+                "Perfect Circles",
+                "Ellipses",
+                "Parabolas",
+                "Hyperbolas"
+            ],
+            "correctAnswer": "Ellipses"
+        },
+        {
+            "question": "What is the value of terminal velocity for an object dependent upon?",
+            "answers": [
+                "Mass and gravity only",
+                "Air resistance and shape/surface area only",
+                "The balance point where drag force equals gravitational force",
+                "The initial height of the drop"
+            ],
+            "correctAnswer": "The balance point where drag force equals gravitational force"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "bio_cell",
+    "questions": [
+        {
+            "answers": [
+                "Lysosome",
+                "Golgi Apparatus",
+                "Mitochondrion",
+                "Endoplasmic Reticulum"
+            ],
+            "correctAnswer": "Mitochondrion",
+            "question": "Which cellular organelle is responsible for generating most of the cell's adenosine triphosphate (ATP)?"
+        },
+        {
+            "answers": [
+                "Lipids",
+                "Enzymes",
+                "Carbohydrates",
+                "Hormones"
+            ],
+            "correctAnswer": "Enzymes",
+            "question": "What biological molecules act as catalysts to accelerate chemical reactions without being consumed in the process?"
+        },
+        {
+            "answers": [
+                "Prophase",
+                "Metaphase",
+                "Anaphase",
+                "Telophase"
+            ],
+            "correctAnswer": "Anaphase",
+            "question": "During which phase of mitosis do the sister chromatids separate and move toward opposite poles of the cell?"
+        },
+        {
+            "answers": [
+                "Triglycerides",
+                "Phospholipids",
+                "Cholesterol",
+                "Glycoproteins"
+            ],
+            "correctAnswer": "Phospholipids",
+            "question": "What is the primary structural lipid component that forms the selectively permeable bilayer of cell membranes?"
+        },
+        {
+            "answers": [
+                "Smooth Endoplasmic Reticulum",
+                "Rough Endoplasmic Reticulum",
+                "Golgi Body",
+                "Nucleolus"
+            ],
+            "correctAnswer": "Rough Endoplasmic Reticulum",
+            "question": "Which organelle is studded with ribosomes and is primarily involved in protein synthesis and folding?"
+        },
+        {
+            "answers": [
+                "The Krebs Cycle",
+                "Glycolysis",
+                "Electron Transport Chain",
+                "Oxidative Phosphorylation"
+            ],
+            "correctAnswer": "Glycolysis",
+            "question": "What is the name of the metabolic pathway that breaks down glucose into pyruvate in the cytoplasm, generating a net profit of 2 ATP?"
+        },
+        {
+            "answers": [
+                "Pinocytosis",
+                "Phagocytosis",
+                "Exocytosis",
+                "Receptor-mediated endocytosis"
+            ],
+            "correctAnswer": "Phagocytosis",
+            "question": "Which cellular process involves the engulfing of large solid particles or whole cells by wrapping the plasma membrane around them?"
+        },
+        {
+            "answers": [
+                "Necrosis",
+                "Autophagy",
+                "Apoptosis",
+                "Senescence"
+            ],
+            "correctAnswer": "Apoptosis",
+            "question": "What is the name of the programming mechanism that triggers scheduled, deliberate cell suicide (programmed cell death)?"
+        },
+        {
+            "answers": [
+                "Peroxisome",
+                "Lysosome",
+                "Vacuole",
+                "Centrosome"
+            ],
+            "correctAnswer": "Lysosome",
+            "question": "Which organelle contains hydrolytic enzymes used to break down waste materials, cellular debris, and foreign invaders?"
+        },
+        {
+            "answers": [
+                "Carbon Dioxide",
+                "Water",
+                "Oxygen",
+                "NAD+"
+            ],
+            "correctAnswer": "Oxygen",
+            "question": "What molecule acts as the final electron acceptor at the very end of the aerobic electron transport chain?"
+        }
+    ],
+    "title": "Cell Biology & Biochemistry"
+}

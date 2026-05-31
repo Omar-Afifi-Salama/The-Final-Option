@@ -1,0 +1,106 @@
+{
+    "id": "hist_medieval",
+    "title": "The Middle Ages & Renaissance",
+    "questions": [
+        {
+            "question": "In what year did the Western Roman Empire traditionally fall, signaling the beginning of the European Middle Ages?",
+            "answers": [
+                "313 CE",
+                "476 CE",
+                "1066 CE",
+                "1453 CE"
+            ],
+            "correctAnswer": "476 CE"
+        },
+        {
+            "question": "Which English monarch was forced by his barons to sign the Magna Carta at Runnymede in 1215?",
+            "answers": [
+                "King Henry II",
+                "King Richard the Lionheart",
+                "King John",
+                "King Edward I"
+            ],
+            "correctAnswer": "King John"
+        },
+        {
+            "question": "What pandemic devastated Europe between 1347 and 1351, wiping out an estimated 30% to 60% of the population?",
+            "answers": [
+                "The Justinian Plague",
+                "The Black Death",
+                "The Antonine Plague",
+                "Smallpox Epidemic"
+            ],
+            "correctAnswer": "The Black Death"
+        },
+        {
+            "question": "Who invented the movable-type printing press in Europe around 1440, revolutionizing the spread of information?",
+            "answers": [
+                "Johannes Gutenberg",
+                "Leonardo da Vinci",
+                "Albrecht Dürer",
+                "Galileo Galilei"
+            ],
+            "correctAnswer": "Johannes Gutenberg"
+        },
+        {
+            "question": "The fall of which major capital city to the Ottoman Empire in 1453 marked the definitive end of the Byzantine Empire?",
+            "answers": [
+                "Rome",
+                "Alexandria",
+                "Constantinople",
+                "Antioch"
+            ],
+            "correctAnswer": "Constantinople"
+        },
+        {
+            "question": "Which female historical figure rallied French troops during the Hundred Years' War and was later burned at the stake in 1431?",
+            "answers": [
+                "Eleanor of Aquitaine",
+                "Joan of Arc",
+                "Mary Tudor",
+                "Catherine de' Medici"
+            ],
+            "correctAnswer": "Joan of Arc"
+        },
+        {
+            "question": "Who pinned his '95 Theses' to the door of Wittenberg Castle church in 1517, triggering the Protestant Reformation?",
+            "answers": [
+                "John Calvin",
+                "Martin Luther",
+                "Henry VIII",
+                "Huldrych Zwingli"
+            ],
+            "correctAnswer": "Martin Luther"
+        },
+        {
+            "question": "Which powerful Italian merchant family effectively ruled Florence during the Renaissance and financed major artists like Michelangelo?",
+            "answers": [
+                "The Borgia Family",
+                "The Medici Family",
+                "The Sforza Family",
+                "The Visconti Family"
+            ],
+            "correctAnswer": "The Medici Family"
+        },
+        {
+            "question": "Who was crowned the first Emperor of the Holy Roman Empire on Christmas Day in 800 CE?",
+            "answers": [
+                "Charlemagne",
+                "Clovis I",
+                "Otto the Great",
+                "Louis the Pious"
+            ],
+            "correctAnswer": "Charlemagne"
+        },
+        {
+            "question": "What was the name of the military expeditions launched by Christian Europeans during the 11th-13th centuries to reclaim the Holy Land?",
+            "answers": [
+                "The Reconquista",
+                "The Crusades",
+                "The Inquisitions",
+                "The Napoleonic Campaigns"
+            ],
+            "correctAnswer": "The Crusades"
+        }
+    ]
+}

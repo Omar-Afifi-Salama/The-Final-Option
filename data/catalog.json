@@ -1,0 +1,134 @@
+{
+    "computer_science": {
+        "title": "Computer Science",
+        "folder": "computer_science",
+        "quizzes": [
+            {
+                "id": "cs_algorithms",
+                "title": "Algorithms & Complexity"
+            },
+            {
+                "id": "cs_operating_systems",
+                "title": "Operating Systems & Architecture"
+            },
+            {
+                "id": "cs_networking",
+                "title": "Networking & Security"
+            },
+            {
+                "id": "cs_databases",
+                "title": "Databases & Distributed Systems"
+            }
+        ]
+    },
+    "mathematics": {
+        "title": "Mathematics",
+        "folder": "mathematics",
+        "quizzes": [
+            {
+                "id": "math_calculus",
+                "title": "Calculus & Analysis"
+            },
+            {
+                "id": "math_linear_algebra",
+                "title": "Linear Algebra"
+            },
+            {
+                "id": "math_discrete",
+                "title": "Discrete Math & Combinatorics"
+            },
+            {
+                "id": "math_abstract",
+                "title": "Abstract Algebra & Number Theory"
+            }
+        ]
+    },
+    "history": {
+        "title": "History",
+        "folder": "history",
+        "quizzes": [
+            {
+                "id": "hist_ancient",
+                "title": "Ancient Civilizations"
+            },
+            {
+                "id": "hist_medieval",
+                "title": "The Middle Ages & Renaissance"
+            },
+            {
+                "id": "hist_modern_world_wars",
+                "title": "World Wars & Global Conflicts"
+            },
+            {
+                "id": "hist_cold_war",
+                "title": "The Cold War Era"
+            }
+        ]
+    },
+    "biology": {
+        "title": "Biology",
+        "folder": "biology",
+        "quizzes": [
+            {
+                "id": "bio_cell",
+                "title": "Cell Biology & Biochemistry"
+            },
+            {
+                "id": "bio_genetics",
+                "title": "Genetics & Molecular Biology"
+            },
+            {
+                "id": "bio_evolution",
+                "title": "Evolution & Ecology"
+            },
+            {
+                "id": "bio_physiology",
+                "title": "Anatomy & Physiology"
+            }
+        ]
+    },
+    "physics": {
+        "title": "Physics",
+        "folder": "physics",
+        "quizzes": [
+            {
+                "id": "phys_mechanics",
+                "title": "Classical Mechanics"
+            },
+            {
+                "id": "phys_em",
+                "title": "Electricity & Magnetism"
+            },
+            {
+                "id": "phys_thermo",
+                "title": "Thermodynamics & Optics"
+            },
+            {
+                "id": "phys_quantum",
+                "title": "Quantum & Modern Physics"
+            }
+        ]
+    },
+    "chemistry": {
+        "title": "Chemistry",
+        "folder": "chemistry",
+        "quizzes": [
+            {
+                "id": "chem_general",
+                "title": "General & Inorganic Chemistry"
+            },
+            {
+                "id": "chem_organic",
+                "title": "Organic Chemistry"
+            },
+            {
+                "id": "chem_physical",
+                "title": "Physical Chemistry"
+            },
+            {
+                "id": "chem_analytical",
+                "title": "Analytical Techniques"
+            }
+        ]
+    }
+}

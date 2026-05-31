@@ -1,0 +1,106 @@
+{
+    "id": "math_calculus",
+    "title": "Calculus & Analysis",
+    "questions": [
+        {
+            "question": "Which theorem states that if a function is continuous on a closed interval [a, b] and differentiable on the open interval (a, b), there exists at least one c in (a, b) where the instantaneous rate of change equals the average rate of change?",
+            "answers": [
+                "Intermediate Value Theorem",
+                "Mean Value Theorem",
+                "Rolle's Theorem",
+                "Fundamental Theorem of Calculus"
+            ],
+            "correctAnswer": "Mean Value Theorem"
+        },
+        {
+            "question": "What is the value of the limit as x approaches 0 of (sin(x) / x)?",
+            "answers": [
+                "0",
+                "1",
+                "Infinity",
+                "Undefined"
+            ],
+            "correctAnswer": "1"
+        },
+        {
+            "question": "What technique evaluates an integral by switching coordinates using a matrix of partial derivatives called the Jacobian?",
+            "answers": [
+                "Integration by Parts",
+                "U-Substitution",
+                "Change of Variables",
+                "Partial Fraction Decomposition"
+            ],
+            "correctAnswer": "Change of Variables"
+        },
+        {
+            "question": "The derivative of which function is equal to sec^2(x)?",
+            "answers": [
+                "sin(x)",
+                "cos(x)",
+                "tan(x)",
+                "csc(x)"
+            ],
+            "correctAnswer": "tan(x)"
+        },
+        {
+            "question": "What type of series alternates signs and converges if its terms strictly decrease in absolute value to 0?",
+            "answers": [
+                "Geometric Series",
+                "Harmonic Series",
+                "Alternating Series",
+                "Power Series"
+            ],
+            "correctAnswer": "Alternating Series"
+        },
+        {
+            "question": "Which multivariable calculus operation calculates the scalar 'flux density' of a vector field leaving an infinitesimal volume?",
+            "answers": [
+                "Gradient",
+                "Divergence",
+                "Curl",
+                "Laplacian"
+            ],
+            "correctAnswer": "Divergence"
+        },
+        {
+            "question": "What mathematical constant is defined as the limit of (1 + 1/n)^n as n approaches infinity?",
+            "answers": [
+                "pi",
+                "e",
+                "Golden Ratio (phi)",
+                "Euler-Mascheroni Constant (gamma)"
+            ],
+            "correctAnswer": "e"
+        },
+        {
+            "question": "If a function's second derivative is strictly positive on an interval, what geometric property does the graph of the function possess on that interval?",
+            "answers": [
+                "Increasing",
+                "Decreasing",
+                "Concave Upward",
+                "Concave Downward"
+            ],
+            "correctAnswer": "Concave Upward"
+        },
+        {
+            "question": "What improper integral evaluates to the square root of pi?",
+            "answers": [
+                "The integral from -inf to inf of e^(-x^2) dx",
+                "The integral from 0 to inf of 1/x dx",
+                "The integral from -1 to 1 of sqrt(1-x^2) dx",
+                "The integral from 0 to pi of sin(x) dx"
+            ],
+            "correctAnswer": "The integral from -inf to inf of e^(-x^2) dx"
+        },
+        {
+            "question": "Which branch of mathematical analysis rigorously treats concepts of lengths, areas, and volumes via generalized functions?",
+            "answers": [
+                "Topology",
+                "Measure Theory",
+                "Complex Analysis",
+                "Differential Geometry"
+            ],
+            "correctAnswer": "Measure Theory"
+        }
+    ]
+}

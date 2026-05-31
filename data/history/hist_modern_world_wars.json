@@ -1,0 +1,106 @@
+{
+    "id": "hist_modern_world_wars",
+    "title": "World Wars & Global Conflicts",
+    "questions": [
+        {
+            "question": "The assassination of which historical figure in Sarajevo acted as the immediate spark that ignited World War I?",
+            "answers": [
+                "Kaiser Wilhelm II",
+                "Archduke Franz Ferdinand",
+                "Tsar Nicholas II",
+                "King George V"
+            ],
+            "correctAnswer": "Archduke Franz Ferdinand"
+        },
+        {
+            "question": "In what year did the United States enter World War I, following events like the sinking of the Lusitania and the Zimmermann Telegram?",
+            "answers": [
+                "1914",
+                "1915",
+                "1916",
+                "1917"
+            ],
+            "correctAnswer": "1917"
+        },
+        {
+            "question": "Which treaty, signed in 1919, officially ended World War I but imposed harsh economic reparations and territorial losses on Germany?",
+            "answers": [
+                "Treaty of Brest-Litovsk",
+                "Treaty of Versailles",
+                "Treaty of Utrecht",
+                "Treaty of Trianon"
+            ],
+            "correctAnswer": "Treaty of Versailles"
+        },
+        {
+            "question": "What country did Nazi Germany invade on September 1, 1939, prompting Britain and France to declare war, marking the start of WWII?",
+            "answers": [
+                "Austria",
+                "Czechoslovakia",
+                "Poland",
+                "France"
+            ],
+            "correctAnswer": "Poland"
+        },
+        {
+            "question": "What was the code name for the Allied invasion of Normandy on June 6, 1944 (D-Day)?",
+            "answers": [
+                "Operation Barbarossa",
+                "Operation Overlord",
+                "Operation Torch",
+                "Operation Sea Lion"
+            ],
+            "correctAnswer": "Operation Overlord"
+        },
+        {
+            "question": "Which major turning-point battle on the Eastern Front (1942-1943) resulted in the destruction of the German 6th Army and halted Nazi expansion into the USSR?",
+            "answers": [
+                "Battle of Kursk",
+                "Battle of Stalingrad",
+                "Battle of Berlin",
+                "Battle of Leningrad"
+            ],
+            "correctAnswer": "Battle of Stalingrad"
+        },
+        {
+            "question": "The surprise military strike on which naval base prompted the United States to officially enter World War II?",
+            "answers": [
+                "Midway Island",
+                "Pearl Harbor",
+                "Guantanamo Bay",
+                "San Diego"
+            ],
+            "correctAnswer": "Pearl Harbor"
+        },
+        {
+            "question": "Who was the Prime Minister of the United Kingdom throughout the majority of World War II?",
+            "answers": [
+                "Neville Chamberlain",
+                "Winston Churchill",
+                "Clement Attlee",
+                "Anthony Eden"
+            ],
+            "correctAnswer": "Winston Churchill"
+        },
+        {
+            "question": "What international peacekeeping organization was created immediately after World War II to replace the failed League of Nations?",
+            "answers": [
+                "NATO",
+                "The United Nations",
+                "The European Union",
+                "The Warsaw Pact"
+            ],
+            "correctAnswer": "The United Nations"
+        },
+        {
+            "question": "Which dynamic military strategy, meaning 'lightning war,' did Germany use to rapidly conquer Poland, Denmark, Norway, and France?",
+            "answers": [
+                "Attrition Warfare",
+                "Trench Warfare",
+                "Blitzkrieg",
+                "Flanking Strategy"
+            ],
+            "correctAnswer": "Blitzkrieg"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "cs_operating_systems",
+    "title": "Operating Systems & Architecture",
+    "questions": [
+        {
+            "question": "Which of the following condition is NOT one of the four Coffman conditions required for a deadlock to occur?",
+            "answers": [
+                "Mutual Exclusion",
+                "Hold and Wait",
+                "No Preemption",
+                "Preemptive Scheduling"
+            ],
+            "correctAnswer": "Preemptive Scheduling"
+        },
+        {
+            "question": "What hardware component translates virtual addresses to physical addresses in a virtual memory system?",
+            "answers": [
+                "ALU",
+                "MMU",
+                "DMA Controller",
+                "CPU Cache"
+            ],
+            "correctAnswer": "MMU"
+        },
+        {
+            "question": "What is the phenomenon called when an operating system spends more time swapping pages in and out of memory than executing actual instructions?",
+            "answers": [
+                "Fragmentation",
+                "Segmentation",
+                "Thrashing",
+                "Paging"
+            ],
+            "correctAnswer": "Thrashing"
+        },
+        {
+            "question": "Which scheduling algorithm can potentially lead to the starvation of long-running processes?",
+            "answers": [
+                "Round Robin",
+                "First-Come, First-Served",
+                "Shortest Job First",
+                "FIFO"
+            ],
+            "correctAnswer": "Shortest Job First"
+        },
+        {
+            "question": "What is a 'race condition' in concurrent programming?",
+            "answers": [
+                "When a program runs out of memory",
+                "When output depends on the non-deterministic sequence or timing of execution threads",
+                "When a thread terminates unexpectedly",
+                "When two processes are deadlocked"
+            ],
+            "correctAnswer": "When output depends on the non-deterministic sequence or timing of execution threads"
+        },
+        {
+            "question": "What is the primary purpose of a Translation Lookaside Buffer (TLB)?",
+            "answers": [
+                "To speed up network data transfers",
+                "To cache virtual-to-physical address translations",
+                "To store interrupt vectors",
+                "To manage disk input/output operations"
+            ],
+            "correctAnswer": "To cache virtual-to-physical address translations"
+        },
+        {
+            "question": "Which type of interrupt is triggered directly by an executing instruction, such as a division by zero?",
+            "answers": [
+                "Hardware Interrupt",
+                "Trap / Exception",
+                "Maskable Interrupt",
+                "I/O Interrupt"
+            ],
+            "correctAnswer": "Trap / Exception"
+        },
+        {
+            "question": "What is the main advantage of using a microkernel architecture compared to a monolithic kernel?",
+            "answers": [
+                "Higher execution speed",
+                "Smaller overall source code footprint",
+                "Increased system stability and modularity",
+                "Direct hardware access for user applications"
+            ],
+            "correctAnswer": "Increased system stability and modularity"
+        },
+        {
+            "question": "In Unix-like systems, what system call is used to create a completely new child process that is a duplicate of the parent?",
+            "answers": [
+                "exec()",
+                "fork()",
+                "spawn()",
+                "clone()"
+            ],
+            "correctAnswer": "fork()"
+        },
+        {
+            "question": "Which RAID configuration uses disk striping with distributed parity, requiring at least three drives?",
+            "answers": [
+                "RAID 0",
+                "RAID 1",
+                "RAID 5",
+                "RAID 10"
+            ],
+            "correctAnswer": "RAID 5"
+        }
+    ]
+}

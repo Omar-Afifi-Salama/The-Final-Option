@@ -1,0 +1,106 @@
+{
+    "id": "phys_thermo",
+    "title": "Thermodynamics & Optics",
+    "questions": [
+        {
+            "question": "Which law of thermodynamics states that the total entropy of an isolated system can never decrease over time?",
+            "answers": [
+                "Zeroth Law",
+                "First Law",
+                "Second Law",
+                "Third Law"
+            ],
+            "correctAnswer": "Second Law"
+        },
+        {
+            "question": "What is the theoretical upper limit on the efficiency of any thermodynamic heat engine operating between two temperatures called?",
+            "answers": [
+                "Otto Efficiency",
+                "Carnot Efficiency",
+                "Rankine Limit",
+                "Stirling Quotient"
+            ],
+            "correctAnswer": "Carnot Efficiency"
+        },
+        {
+            "question": "What optical principle describes the bending of a light ray as it passes from one transparent medium into another with a different refractive index?",
+            "answers": [
+                "Reflection",
+                "Refraction",
+                "Diffraction",
+                "Interference"
+            ],
+            "correctAnswer": "Refraction"
+        },
+        {
+            "question": "What specific thermodynamic state occurs when a substance's liquid, solid, and gas phases can coexist in perfect equilibrium?",
+            "answers": [
+                "Critical Point",
+                "Triple Point",
+                "Sublimation Point",
+                "Boiling Point"
+            ],
+            "correctAnswer": "Triple Point"
+        },
+        {
+            "question": "Which famous experiment demonstrated the wave-particle duality of light through the creation of an interference pattern on a screen?",
+            "answers": [
+                "Michelson-Morley Experiment",
+                "Young's Double-Slit Experiment",
+                "Cavendish Experiment",
+                "Stern-Gerlach Experiment"
+            ],
+            "correctAnswer": "Young's Double-Slit Experiment"
+        },
+        {
+            "question": "What phenomenon occurs when the angle of incidence exceeds the critical angle, causing a light ray to be entirely reflected back inside a medium like an optical fiber?",
+            "answers": [
+                "Specular Reflection",
+                "Total Internal Reflection",
+                "Chromatic Aberration",
+                "Diffuse Scattering"
+            ],
+            "correctAnswer": "Total Internal Reflection"
+        },
+        {
+            "question": "What is the absolute zero temperature threshold equivalent to on the Celsius scale?",
+            "answers": [
+                "0°C",
+                "-100°C",
+                "-273.15°C",
+                "-459.67°C"
+            ],
+            "correctAnswer": "-273.15°C"
+        },
+        {
+            "question": "What type of thermodynamic process takes place without any heat transfer or exchange between the system and its surroundings?",
+            "answers": [
+                "Isothermal Process",
+                "Isobaric Process",
+                "Isochoric Process",
+                "Adiabatic Process"
+            ],
+            "correctAnswer": "Adiabatic Process"
+        },
+        {
+            "question": "What optical effect describes the splitting of white light into its component colors when passing through a glass prism due to wavelength-dependent refractive indices?",
+            "answers": [
+                "Polarization",
+                "Dispersion",
+                "Diffraction",
+                "Absorption"
+            ],
+            "correctAnswer": "Dispersion"
+        },
+        {
+            "question": "What thermodynamic variable is a macroscopic, statistical measure of the average translational kinetic energy of the particles within a system?",
+            "answers": [
+                "Heat",
+                "Enthalpy",
+                "Temperature",
+                "Internal Energy"
+            ],
+            "correctAnswer": "Temperature"
+        }
+    ]
+}

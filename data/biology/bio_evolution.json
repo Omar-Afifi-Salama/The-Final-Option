@@ -1,0 +1,106 @@
+{
+    "id": "bio_evolution",
+    "title": "Evolution & Ecology",
+    "questions": [
+        {
+            "question": "What is the primary evolutionary mechanism described by Charles Darwin where organisms better adapted to their environment tend to survive and produce more offspring?",
+            "answers": [
+                "Genetic Drift",
+                "Natural Selection",
+                "Gene Flow",
+                "Mutation Pressure"
+            ],
+            "correctAnswer": "Natural Selection"
+        },
+        {
+            "question": "What evolutionary phenomenon occurs when two unrelated species independently evolve similar traits as a result of having to adapt to similar environments?",
+            "answers": [
+                "Divergent Evolution",
+                "Convergent Evolution",
+                "Coevolution",
+                "Adaptive Radiation"
+            ],
+            "correctAnswer": "Convergent Evolution"
+        },
+        {
+            "question": "What term describes the maximum population size of a biological species that a particular environment can sustain indefinitely given available resources?",
+            "answers": [
+                "Biomass Index",
+                "Carrying Capacity",
+                "Ecological Niche",
+                "Growth Quotient"
+            ],
+            "correctAnswer": "Carrying Capacity"
+        },
+        {
+            "question": "Which ecological relationship describes a symbiosis where one species benefits while the other is completely unaffected (neither helped nor harmed)?",
+            "answers": [
+                "Mutualism",
+                "Parasitism",
+                "Commensalism",
+                "Competition"
+            ],
+            "correctAnswer": "Commensalism"
+        },
+        {
+            "question": "What is the random change in allele frequencies within a population over time, which exerts a much stronger effect in very small populations?",
+            "answers": [
+                "Natural Selection",
+                "Gene Flow",
+                "Genetic Drift",
+                "Assortative Mating"
+            ],
+            "correctAnswer": "Genetic Drift"
+        },
+        {
+            "question": "What are anatomical features in different organisms that share a common evolutionary origin and structural blueprint, regardless of their current function?",
+            "answers": [
+                "Analogous Structures",
+                "Homologous Structures",
+                "Vestigial Structures",
+                "Atavistic Structures"
+            ],
+            "correctAnswer": "Homologous Structures"
+        },
+        {
+            "question": "In an ecological energy pyramid, approximately what percentage of energy is successfully transferred from one trophic level up to the next highest level?",
+            "answers": [
+                "1%",
+                "10%",
+                "50%",
+                "90%"
+            ],
+            "correctAnswer": "10%"
+        },
+        {
+            "question": "What type of speciation occurs when biological populations of the same species become isolated from each other due to a geographic barrier?",
+            "answers": [
+                "Allopatric Speciation",
+                "Sympatric Speciation",
+                "Parapatric Speciation",
+                "Peripatric Speciation"
+            ],
+            "correctAnswer": "Allopatric Speciation"
+        },
+        {
+            "question": "What is a species called that has a disproportionately large effect on its natural environment relative to its abundance, such that its removal collapses the ecosystem?",
+            "answers": [
+                "Indicator Species",
+                "Keystone Species",
+                "Endemic Species",
+                "Invasive Species"
+            ],
+            "correctAnswer": "Keystone Species"
+        },
+        {
+            "question": "The Hardy-Weinberg equilibrium principle assumes several conditions to maintain constant allele frequencies. Which of the following violates that equilibrium?",
+            "answers": [
+                "Infinite population size",
+                "No mutations",
+                "Completely random mating",
+                "The presence of natural selection"
+            ],
+            "correctAnswer": "The presence of natural selection"
+        }
+    ]
+}

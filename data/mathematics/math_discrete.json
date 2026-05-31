@@ -1,0 +1,106 @@
+{
+    "id": "math_discrete",
+    "title": "Discrete Math & Combinatorics",
+    "questions": [
+        {
+            "question": "How many distinct ways can you choose a committee of 3 people out of a pool of 10 candidates if order does not matter?",
+            "answers": [
+                "30",
+                "120",
+                "720",
+                "1000"
+            ],
+            "correctAnswer": "120"
+        },
+        {
+            "question": "What mathematical principle states that if n items are put into m containers, with n > m, then at least one container must contain more than one item?",
+            "answers": [
+                "Inclusion-Exclusion Principle",
+                "Pigeonhole Principle",
+                "Well-Ordering Principle",
+                "Handshaking Lemma"
+            ],
+            "correctAnswer": "Pigeonhole Principle"
+        },
+        {
+            "question": "In graph theory, what is a path called that visits every single *edge* in a graph exactly once?",
+            "answers": [
+                "Hamiltonian Path",
+                "Eulerian Path",
+                "Planar Path",
+                "Bipartite Path"
+            ],
+            "correctAnswer": "Eulerian Path"
+        },
+        {
+            "question": "What is the base case value usually evaluated for the empty set's power set cardinality? (e.g., how many subsets does an empty set have?)",
+            "answers": [
+                "0",
+                "1",
+                "2",
+                "Undefined"
+            ],
+            "correctAnswer": "1"
+        },
+        {
+            "question": "According to the Handshaking Lemma, the sum of degrees of all vertices in any undirected graph is always equal to what value?",
+            "answers": [
+                "The total number of vertices",
+                "Twice the total number of edges",
+                "The square of the number of edges",
+                "The number of edges minus one"
+            ],
+            "correctAnswer": "Twice the total number of edges"
+        },
+        {
+            "question": "What is the truth value of the implication 'P implies Q' if P is false and Q is false?",
+            "answers": [
+                "True",
+                "False",
+                "Indeterminate",
+                "Contradictory"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Which theorem allows you to expand integer powers of a binomial algebraic expression easily using coefficients from Pascal's Triangle?",
+            "answers": [
+                "Fermat's Little Theorem",
+                "Binomial Theorem",
+                "Chinese Remainder Theorem",
+                "Fundamental Theorem of Algebra"
+            ],
+            "correctAnswer": "Binomial Theorem"
+        },
+        {
+            "question": "A tree graph with exactly 50 vertices must contain how many edges?",
+            "answers": [
+                "25",
+                "49",
+                "50",
+                "100"
+            ],
+            "correctAnswer": "49"
+        },
+        {
+            "question": "What mathematical sequence starts with 0 and 1, where each subsequent number is the sum of the previous two?",
+            "answers": [
+                "Arithmetic Sequence",
+                "Geometric Sequence",
+                "Fibonacci Sequence",
+                "Prime Sequence"
+            ],
+            "correctAnswer": "Fibonacci Sequence"
+        },
+        {
+            "question": "What relation property is satisfied if for all a and b, whenever a relates to b and b relates to c, then a relates to c?",
+            "answers": [
+                "Reflexive",
+                "Symmetric",
+                "Antisymmetric",
+                "Transitive"
+            ],
+            "correctAnswer": "Transitive"
+        }
+    ]
+}

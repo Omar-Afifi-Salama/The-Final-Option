@@ -1,0 +1,106 @@
+{
+    "id": "cs_databases",
+    "title": "Databases & Distributed Systems",
+    "questions": [
+        {
+            "question": "In database systems, what does the 'I' stand for in the ACID properties of transactions?",
+            "answers": [
+                "Inheritance",
+                "Isolation",
+                "Integrity",
+                "Immutability"
+            ],
+            "correctAnswer": "Isolation"
+        },
+        {
+            "question": "According to the CAP Theorem, which three properties can a distributed system never simultaneously guarantee completely?",
+            "answers": [
+                "Consistency, Availability, Partition Tolerance",
+                "Concurrency, Authority, Performance",
+                "Complexity, Availability, Portability",
+                "Consistency, Atomicity, Privacy"
+            ],
+            "correctAnswer": "Consistency, Availability, Partition Tolerance"
+        },
+        {
+            "question": "Which database normalization form deals with eliminating transitive dependencies on the primary key?",
+            "answers": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctAnswer": "3NF"
+        },
+        {
+            "question": "What type of database constraint ensures that a value in one table matches a valid primary key value in another table?",
+            "answers": [
+                "Unique Constraint",
+                "Check Constraint",
+                "Foreign Key Constraint",
+                "Default Constraint"
+            ],
+            "correctAnswer": "Foreign Key Constraint"
+        },
+        {
+            "question": "In a distributed consensus protocol, which algorithm is famous for using a 'leader, follower, and candidate' model to manage a replicated log?",
+            "answers": [
+                "MapReduce",
+                "Paxos",
+                "Raft",
+                "Two-Phase Commit"
+            ],
+            "correctAnswer": "Raft"
+        },
+        {
+            "question": "What kind of index uses a balanced tree structure where leaf nodes contain pointers to actual data rows and are linked sequentially?",
+            "answers": [
+                "Hash Index",
+                "B+ Tree Index",
+                "Bitmap Index",
+                "Inverted Index"
+            ],
+            "correctAnswer": "B+ Tree Index"
+        },
+        {
+            "question": "Which SQL clause is used to filter rows *after* an aggregation operation has been performed by a GROUP BY clause?",
+            "answers": [
+                "WHERE",
+                "HAVING",
+                "FILTER",
+                "SELECT DISTINCT"
+            ],
+            "correctAnswer": "HAVING"
+        },
+        {
+            "question": "What is the term used to describe a database anomaly where a transaction reads data that has been modified by another concurrent transaction but not yet committed?",
+            "answers": [
+                "Dirty Read",
+                "Non-repeatable Read",
+                "Phantom Read",
+                "Lost Update"
+            ],
+            "correctAnswer": "Dirty Read"
+        },
+        {
+            "question": "In distributed systems, what is the 'split-brain' scenario?",
+            "answers": [
+                "When a CPU failure causes a server to restart",
+                "When network partitioning causes a cluster to divide into separate independent sub-clusters that each think they are the leader",
+                "When a database runs out of storage space",
+                "When an application thread conflicts with a system process"
+            ],
+            "correctAnswer": "When network partitioning causes a cluster to divide into separate independent sub-clusters that each think they are the leader"
+        },
+        {
+            "question": "Which NoSQL database category is Apache Cassandra primarily classified as?",
+            "answers": [
+                "Document Store",
+                "Key-Value Store",
+                "Wide-Column / Column-Family Store",
+                "Graph Database"
+            ],
+            "correctAnswer": "Wide-Column / Column-Family Store"
+        }
+    ]
+}

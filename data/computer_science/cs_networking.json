@@ -1,0 +1,106 @@
+{
+    "id": "cs_networking",
+    "title": "Networking & Security",
+    "questions": [
+        {
+            "question": "At which layer of the OSI model does a standard IP router primarily operate?",
+            "answers": [
+                "Data Link Layer",
+                "Network Layer",
+                "Transport Layer",
+                "Application Layer"
+            ],
+            "correctAnswer": "Network Layer"
+        },
+        {
+            "question": "What protocol is used to automatically assign IP addresses to devices on a network?",
+            "answers": [
+                "DNS",
+                "DHCP",
+                "ARP",
+                "NAT"
+            ],
+            "correctAnswer": "DHCP"
+        },
+        {
+            "question": "Which cryptographic primitive guarantees non-repudiation in digital communications?",
+            "answers": [
+                "Symmetric Encryption",
+                "Asymmetric Digital Signatures",
+                "Cryptographic Hashing",
+                "Salting"
+            ],
+            "correctAnswer": "Asymmetric Digital Signatures"
+        },
+        {
+            "question": "What security attack exploits vulnerable software code by writing more data to a memory buffer than it can hold, overwriting adjacent memory?",
+            "answers": [
+                "SQL Injection",
+                "Cross-Site Scripting (XSS)",
+                "Buffer Overflow",
+                "Man-in-the-Middle"
+            ],
+            "correctAnswer": "Buffer Overflow"
+        },
+        {
+            "question": "In the TCP 3-way handshake, what sequence of flags is exchanged to establish a connection?",
+            "answers": [
+                "SYN -> SYN-ACK -> ACK",
+                "SYN -> ACK -> SYN-ACK",
+                "ACK -> SYN -> SYN-ACK",
+                "SYN -> DATA -> ACK"
+            ],
+            "correctAnswer": "SYN -> SYN-ACK -> ACK"
+        },
+        {
+            "question": "What is the purpose of the Address Resolution Protocol (ARP)?",
+            "answers": [
+                "To resolve domain names to IP addresses",
+                "To map an IP address to a physical MAC address",
+                "To securely route packets across the internet",
+                "To manage session state in web applications"
+            ],
+            "correctAnswer": "To map an IP address to a physical MAC address"
+        },
+        {
+            "question": "Which HTTP status code represents an internal server error?",
+            "answers": [
+                "400",
+                "403",
+                "404",
+                "500"
+            ],
+            "correctAnswer": "500"
+        },
+        {
+            "question": "What type of attack involves an attacker placing themselves between two communicating parties to secretly intercept or alter traffic?",
+            "answers": [
+                "Phishing",
+                "Denial of Service (DoS)",
+                "Man-in-the-Middle (MitM)",
+                "Brute Force"
+            ],
+            "correctAnswer": "Man-in-the-Middle (MitM)"
+        },
+        {
+            "question": "Which asymmetric encryption algorithm relies on the mathematical difficulty of factoring large prime numbers?",
+            "answers": [
+                "AES",
+                "DES",
+                "RSA",
+                "Blowfish"
+            ],
+            "correctAnswer": "RSA"
+        },
+        {
+            "question": "What is the primary difference between IPv4 and IPv6 address sizes?",
+            "answers": [
+                "IPv4 is 16-bit, IPv6 is 32-bit",
+                "IPv4 is 32-bit, IPv6 is 64-bit",
+                "IPv4 is 32-bit, IPv6 is 128-bit",
+                "IPv4 is 64-bit, IPv6 is 128-bit"
+            ],
+            "correctAnswer": "IPv4 is 32-bit, IPv6 is 128-bit"
+        }
+    ]
+}

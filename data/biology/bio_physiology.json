@@ -1,0 +1,106 @@
+{
+    "id": "bio_physiology",
+    "title": "Anatomy & Physiology",
+    "questions": [
+        {
+            "question": "What is the basic functional, filtering unit of the human kidney?",
+            "answers": [
+                "Neuron",
+                "Nephron",
+                "Alveolus",
+                "Lobule"
+            ],
+            "correctAnswer": "Nephron"
+        },
+        {
+            "question": "Which hormone, produced by the beta cells of the pancreas, acts to lower blood glucose levels?",
+            "answers": [
+                "Glucagon",
+                "Insulin",
+                "Cortisol",
+                "Adrenaline"
+            ],
+            "correctAnswer": "Insulin"
+        },
+        {
+            "question": "In the human circulatory system, which specific blood vessels carry oxygenated blood away from the lungs back to the left atrium of the heart?",
+            "answers": [
+                "Pulmonary Arteries",
+                "Pulmonary Veins",
+                "Vena Cava",
+                "Aorta"
+            ],
+            "correctAnswer": "Pulmonary Veins"
+        },
+        {
+            "question": "What gap or junction allows a chemical or electrical signal to pass from one neuron terminal to the next receiving neuron?",
+            "answers": [
+                "Axon",
+                "Dendrite",
+                "Synapse",
+                "Myelin Sheath"
+            ],
+            "correctAnswer": "Synapse"
+        },
+        {
+            "question": "Which section of the human brain is primarily responsible for coordinating voluntary movements, balance, and posture?",
+            "answers": [
+                "Cerebrum",
+                "Cerebellum",
+                "Medulla Oblongata",
+                "Hypothalamus"
+            ],
+            "correctAnswer": "Cerebellum"
+        },
+        {
+            "question": "What type of blood cells are vital components of the immune system and are responsible for fighting off infections?",
+            "answers": [
+                "Erythrocytes",
+                "Leukocytes",
+                "Thrombocytes",
+                "Plasma"
+            ],
+            "correctAnswer": "Leukocytes"
+        },
+        {
+            "question": "What is the primary site of nutrient absorption within the human digestive system?",
+            "answers": [
+                "Stomach",
+                "Small Intestine",
+                "Large Intestine",
+                "Esophagus"
+            ],
+            "correctAnswer": "Small Intestine"
+        },
+        {
+            "question": "Which protein molecule gives red blood cells their color and binds reversibly to oxygen gas?",
+            "answers": [
+                "Myoglobin",
+                "Hemoglobin",
+                "Fibrinogen",
+                "Albumin"
+            ],
+            "correctAnswer": "Hemoglobin"
+        },
+        {
+            "question": "What mechanism maintains internal stability and balance within a biological organism in response to external environmental changes?",
+            "answers": [
+                "Metabolism",
+                "Homeostasis",
+                "Hemostasis",
+                "Osmosis"
+            ],
+            "correctAnswer": "Homeostasis"
+        },
+        {
+            "question": "Which endocrine gland is frequently referred to as the 'master gland' because its hormones regulate many other endocrine glands?",
+            "answers": [
+                "Thyroid Gland",
+                "Adrenal Gland",
+                "Pituitary Gland",
+                "Pineal Gland"
+            ],
+            "correctAnswer": "Pituitary Gland"
+        }
+    ]
+}

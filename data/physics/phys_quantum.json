@@ -1,0 +1,106 @@
+{
+    "id": "phys_quantum",
+    "title": "Quantum & Modern Physics",
+    "questions": [
+        {
+            "question": "What fundamental principle states that it is physically impossible to simultaneously measure both the exact position and momentum of a subatomic particle with absolute precision?",
+            "answers": [
+                "Pauli Exclusion Principle",
+                "Heisenberg Uncertainty Principle",
+                "Schrödinger's Criterion",
+                "De Broglie Hypothesis"
+            ],
+            "correctAnswer": "Heisenberg Uncertainty Principle"
+        },
+        {
+            "question": "Albert Einstein won his 1921 Nobel Prize in Physics specifically for his explanation of which phenomenon?",
+            "answers": [
+                "Special Relativity",
+                "General Relativity",
+                "The Photoelectric Effect",
+                "Brownian Motion"
+            ],
+            "correctAnswer": "The Photoelectric Effect"
+        },
+        {
+            "question": "Which quantum mechanics rule states that two identical fermions cannot occupy the same quantum state simultaneously?",
+            "answers": [
+                "Hund's Rule",
+                "Pauli Exclusion Principle",
+                "Aufbau Principle",
+                "Born Interpretation"
+            ],
+            "correctAnswer": "Pauli Exclusion Principle"
+        },
+        {
+            "question": "According to Einstein's Special Relativity, what happens to time for an observer moving at a very high velocity relative to a stationary observer?",
+            "answers": [
+                "Time speeds up (Time Contraction)",
+                "Time slows down (Time Dilation)",
+                "Time stops completely",
+                "Time flows backward"
+            ],
+            "correctAnswer": "Time slows down (Time Dilation)"
+        },
+        {
+            "question": "What are the fundamental constituents of hadrons, such as protons and neutrons, which carry fractional elementary electric charges?",
+            "answers": [
+                "Leptons",
+                "Quarks",
+                "Gluons",
+                "Neutrinos"
+            ],
+            "correctAnswer": "Quarks"
+        },
+        {
+            "question": "What concept describes the non-local connection where the quantum states of multiple particles become inextricably linked, regardless of distance?",
+            "answers": [
+                "Quantum Tunneling",
+                "Quantum Entanglement",
+                "Superposition",
+                "Coherence"
+            ],
+            "correctAnswer": "Quantum Entanglement"
+        },
+        {
+            "question": "Which fundamental force of nature is mediated by the exchange of massless gluons and holds atomic nuclei together?",
+            "answers": [
+                "Gravitational Force",
+                "Weak Nuclear Force",
+                "Strong Nuclear Force",
+                "Electromagnetic Force"
+            ],
+            "correctAnswer": "Strong Nuclear Force"
+        },
+        {
+            "question": "What is the name of the phenomenon where a quantum particle passes through a potential energy barrier that it classically lacks the energy to overcome?",
+            "answers": [
+                "Quantum Tunneling",
+                "Quantum Jump",
+                "Wavepacket Spreading",
+                "Diffraction leakage"
+            ],
+            "correctAnswer": "Quantum Tunneling"
+        },
+        {
+            "question": "What constant represents the fundamental quantum of electromagnetic action, relating a photon's energy to its frequency?",
+            "answers": [
+                "Boltzmann Constant",
+                "Planck's Constant",
+                "Rydberg Constant",
+                "Fine Structure Constant"
+            ],
+            "correctAnswer": "Planck's Constant"
+        },
+        {
+            "question": "In General Relativity, how is the phenomenon of gravity described?",
+            "answers": [
+                "An attractive force mediated by graviton fields",
+                "The curvature of four-dimensional spacetime caused by mass and energy",
+                "An instantaneous action-at-a-distance force",
+                "A manifestation of electromagnetic variance"
+            ],
+            "correctAnswer": "The curvature of four-dimensional spacetime caused by mass and energy"
+        }
+    ]
+}

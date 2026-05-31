@@ -1,0 +1,106 @@
+{
+    "id": "chem_general",
+    "title": "General & Inorganic Chemistry",
+    "questions": [
+        {
+            "question": "Which periodic trend generally increases as you move from left to right across a period and decreases down a group?",
+            "answers": [
+                "Atomic Radius",
+                "Electronegativity",
+                "Metallic Character",
+                "Ionic Radius"
+            ],
+            "correctAnswer": "Electronegativity"
+        },
+        {
+            "question": "What type of chemical bond involves the complete electrostatic attraction between oppositely charged ions formed via electron transfer?",
+            "answers": [
+                "Covalent Bond",
+                "Ionic Bond",
+                "Metallic Bond",
+                "Hydrogen Bond"
+            ],
+            "correctAnswer": "Ionic Bond"
+        },
+        {
+            "question": "According to the VSEPR theory, what is the geometric molecular shape of a methane (CH4) molecule?",
+            "answers": [
+                "Linear",
+                "Trigonal Planar",
+                "Tetrahedral",
+                "Octahedral"
+            ],
+            "correctAnswer": "Tetrahedral"
+        },
+        {
+            "question": "What is the name of the principle stating that orbitals are filled by electrons starting from the lowest energy level upwards?",
+            "answers": [
+                "Hund's Rule",
+                "Aufbau Principle",
+                "Pauli Principle",
+                "Le Chatelier's Principle"
+            ],
+            "correctAnswer": "Aufbau Principle"
+        },
+        {
+            "question": "What is the absolute number of representative particles contained within exactly one mole of any substance?",
+            "answers": [
+                "3.00 x 10^8",
+                "6.022 x 10^23",
+                "1.602 x 10^-19",
+                "8.314"
+            ],
+            "correctAnswer": "6.022 x 10^23"
+        },
+        {
+            "question": "Which group of elements on the periodic table possess completely filled valence electron shells, making them exceptionally unreactive?",
+            "answers": [
+                "Alkali Metals",
+                "Halogens",
+                "Noble Gases",
+                "Alkaline Earth Metals"
+            ],
+            "correctAnswer": "Noble Gases"
+        },
+        {
+            "question": "What is the term used to describe variants of a particular chemical element that share the same number of protons but have different numbers of neutrons?",
+            "answers": [
+                "Isomers",
+                "Isotopes",
+                "Allotropes",
+                "Isobars"
+            ],
+            "correctAnswer": "Isotopes"
+        },
+        {
+            "question": "Which law states that the total pressure exerted by a mixture of non-reactive gases is equal to the sum of the partial pressures of individual gases?",
+            "answers": [
+                "Boyle's Law",
+                "Charles's Law",
+                "Dalton's Law",
+                "Henry's Law"
+            ],
+            "correctAnswer": "Dalton's Law"
+        },
+        {
+            "question": "What type of intramolecular bond is formed when two atoms share electrons unequally due to a difference in their electronegativities?",
+            "answers": [
+                "Nonpolar Covalent Bond",
+                "Polar Covalent Bond",
+                "Ionic Bond",
+                "Coordinate Covalent Bond"
+            ],
+            "correctAnswer": "Polar Covalent Bond"
+        },
+        {
+            "question": "What transition element is the primary component of the coordination complex known as cisplatin, a widely used chemotherapy drug?",
+            "answers": [
+                "Iron",
+                "Copper",
+                "Platinum",
+                "Gold"
+            ],
+            "correctAnswer": "Platinum"
+        }
+    ]
+}

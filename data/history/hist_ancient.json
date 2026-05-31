@@ -1,0 +1,106 @@
+{
+    "id": "hist_ancient",
+    "title": "Ancient Civilizations",
+    "questions": [
+        {
+            "question": "Which Babylonian ruler is famous for instituting one of the earliest and most complete written legal codes in ancient history?",
+            "answers": [
+                "Nebuchadnezzar II",
+                "Hammurabi",
+                "Sargon of Akkad",
+                "Gilgamesh"
+            ],
+            "correctAnswer": "Hammurabi"
+        },
+        {
+            "question": "What major battle in 490 BCE saw the Athenian army decisively defeat the first Persian invasion of Greece?",
+            "answers": [
+                "Battle of Thermopylae",
+                "Battle of Marathon",
+                "Battle of Salamis",
+                "Battle of Plataea"
+            ],
+            "correctAnswer": "Battle of Marathon"
+        },
+        {
+            "question": "Who was the first official Emperor of the Roman Empire, marking the end of the Roman Republic?",
+            "answers": [
+                "Julius Caesar",
+                "Augustus",
+                "Nero",
+                "Marcus Aurelius"
+            ],
+            "correctAnswer": "Augustus"
+        },
+        {
+            "question": "The discovery of which artifact in 1799 provided the key to deciphering Egyptian hieroglyphs?",
+            "answers": [
+                "The Rosetta Stone",
+                "The Elgin Marbles",
+                "The Code of Hammurabi",
+                "The Behistun Inscription"
+            ],
+            "correctAnswer": "The Rosetta Stone"
+        },
+        {
+            "question": "Which ancient civilization constructed the city of Mohenjo-daro, known for its advanced urban planning and drainage systems?",
+            "answers": [
+                "Mesopotamian Civilization",
+                "Indus Valley Civilization",
+                "Minoan Civilization",
+                "Olmec Civilization"
+            ],
+            "correctAnswer": "Indus Valley Civilization"
+        },
+        {
+            "question": "What major conflict was fought between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens)?",
+            "answers": [
+                "The Persian Wars",
+                "The Punic Wars",
+                "The Peloponnesian War",
+                "The Gallic Wars"
+            ],
+            "correctAnswer": "The Peloponnesian War"
+        },
+        {
+            "question": "Which Carthaginian general famously crossed the Alps with war elephants during the Second Punic War to invade Italy?",
+            "answers": [
+                "Hamilcar Barca",
+                "Hannibal",
+                "Scipio Africanus",
+                "Hasdrubal"
+            ],
+            "correctAnswer": "Hannibal"
+        },
+        {
+            "question": "Which Chinese dynasty began construction on the Great Wall and unified China under its first emperor, Qin Shi Huang?",
+            "answers": [
+                "Han Dynasty",
+                "Qin Dynasty",
+                "Zhou Dynasty",
+                "Tang Dynasty"
+            ],
+            "correctAnswer": "Qin Dynasty"
+        },
+        {
+            "question": "The ancient library of Alexandria, one of the largest and most significant libraries of the ancient world, was located in which country?",
+            "answers": [
+                "Greece",
+                "Italy",
+                "Egypt",
+                "Syria"
+            ],
+            "correctAnswer": "Egypt"
+        },
+        {
+            "question": "Which Roman Emperor legalised Christianity across the empire via the Edict of Milan in 313 CE?",
+            "answers": [
+                "Nero",
+                "Caligula",
+                "Constantine the Great",
+                "Diocletian"
+            ],
+            "correctAnswer": "Constantine the Great"
+        }
+    ]
+}

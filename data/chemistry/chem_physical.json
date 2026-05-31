@@ -1,0 +1,106 @@
+{
+    "id": "chem_physical",
+    "title": "Physical Chemistry",
+    "questions": [
+        {
+            "question": "If a chemical reaction has a negative change in Gibbs Free Energy (delta G < 0) at a specific temperature, what is true about the reaction?",
+            "answers": [
+                "It is endothermic",
+                "It is at equilibrium",
+                "It is non-spontaneous",
+                "It is spontaneous"
+            ],
+            "correctAnswer": "It is spontaneous"
+        },
+        {
+            "question": "What law states that the rate of a chemical reaction is directly proportional to the product of the concentrations of the reactants raised to some power?",
+            "answers": [
+                "Rate Law",
+                "Henry's Law",
+                "Hess's Law",
+                "Beer-Lambert Law"
+            ],
+            "correctAnswer": "Rate Law"
+        },
+        {
+            "question": "What constant or equation describes how the rate constant of a chemical reaction varies as a function of temperature and activation energy?",
+            "answers": [
+                "Nernst Equation",
+                "Arrhenius Equation",
+                "Van 't Hoff Equation",
+                "Henderson-Hasselbalch Equation"
+            ],
+            "correctAnswer": "Arrhenius Equation"
+        },
+        {
+            "question": "What term describes a substance that increases the rate of a chemical reaction by lowering the activation energy barrier without being permanently altered?",
+            "answers": [
+                "Reactant",
+                "Product",
+                "Catalyst",
+                "Inhibitor"
+            ],
+            "correctAnswer": "Catalyst"
+        },
+        {
+            "question": "According to Le Chatelier's Principle, what will happen to an exothermic reaction at equilibrium if the temperature is increased?",
+            "answers": [
+                "The equilibrium shifts toward the products",
+                "The equilibrium shifts toward the reactants",
+                "The equilibrium constant increases",
+                "Nothing changes"
+            ],
+            "correctAnswer": "The equilibrium shifts toward the reactants"
+        },
+        {
+            "question": "What equation states that the total enthalpy change of a chemical reaction is the same whether it takes place in one step or in several steps?",
+            "answers": [
+                "Hess's Law",
+                "Kirchhoff's Law",
+                "Gibbs Equation",
+                "Raoult's Law"
+            ],
+            "correctAnswer": "Hess's Law"
+        },
+        {
+            "question": "What type of solution property depends solely upon the concentration of solute particles dissolved, rather than the chemical identity of the solute?",
+            "answers": [
+                "Intensive Property",
+                "Colligative Property",
+                "Extensive Property",
+                "Thermodynamic Property"
+            ],
+            "correctAnswer": "Colligative Property"
+        },
+        {
+            "question": "What equation models the reduction potential of an electrochemical half-cell at non-standard state concentrations?",
+            "answers": [
+                "Faraday Equation",
+                "Nernst Equation",
+                "Gibbs-Helmholtz Equation",
+                "Michaelis-Menten Equation"
+            ],
+            "correctAnswer": "Nernst Equation"
+        },
+        {
+            "question": "What is the half-life of a first-order chemical reaction dependent upon?",
+            "answers": [
+                "The initial concentration of the reactant",
+                "The rate constant (k) only",
+                "The volume of the reaction vessel",
+                "The total reaction time elapsed"
+            ],
+            "correctAnswer": "The rate constant (k) only"
+        },
+        {
+            "question": "What law states that the absorbance of a solution is directly proportional to both its concentration and the path length of light?",
+            "answers": [
+                "Raoult's Law",
+                "Henry's Law",
+                "Beer-Lambert Law",
+                "Charles's Law"
+            ],
+            "correctAnswer": "Beer-Lambert Law"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "cs_algorithms",
+    "title": "Algorithms & Complexity",
+    "questions": [
+        {
+            "question": "What is the tightest upper bound time complexity of building a binary heap from an unsorted array of n elements?",
+            "answers": [
+                "O(log n)",
+                "O(n)",
+                "O(n log n)",
+                "O(n^2)"
+            ],
+            "correctAnswer": "O(n)"
+        },
+        {
+            "question": "Which algorithmic paradigm does Floyd-Warshall all-pairs shortest path algorithm utilize?",
+            "answers": [
+                "Greedy Approach",
+                "Divide and Conquer",
+                "Dynamic Programming",
+                "Backtracking"
+            ],
+            "correctAnswer": "Dynamic Programming"
+        },
+        {
+            "question": "What problem class does a decision problem belong to if its affirmative solutions can be verified in polynomial time by a deterministic Turing machine?",
+            "answers": [
+                "P",
+                "NP",
+                "NP-Complete",
+                "EXPTIME"
+            ],
+            "correctAnswer": "NP"
+        },
+        {
+            "question": "Which data structure is inherently used to implement Breadth-First Search (BFS) on a graph?",
+            "answers": [
+                "Stack",
+                "Queue",
+                "Priority Queue",
+                "Binary Search Tree"
+            ],
+            "correctAnswer": "Queue"
+        },
+        {
+            "question": "What is the worst-case time complexity of finding an element in a self-balancing binary search tree (like an AVL tree) with n nodes?",
+            "answers": [
+                "O(1)",
+                "O(log n)",
+                "O(n)",
+                "O(n log n)"
+            ],
+            "correctAnswer": "O(log n)"
+        },
+        {
+            "question": "Which sorting algorithm has a stable matching variant known as the Gale-Shapley algorithm?",
+            "answers": [
+                "Merge Sort",
+                "Quick Sort",
+                "Radix Sort",
+                "Stable Matching isn't a sorting algorithm"
+            ],
+            "correctAnswer": "Stable Matching isn't a sorting algorithm"
+        },
+        {
+            "question": "In a hash table, what is the term used when two different keys hash to the same index?",
+            "answers": [
+                "Collision",
+                "Overflow",
+                "Clustering",
+                "Duplication"
+            ],
+            "correctAnswer": "Collision"
+        },
+        {
+            "question": "Which of the following is an example of an undecidable problem?",
+            "answers": [
+                "The Traveling Salesperson Problem",
+                "The Halting Problem",
+                "The Knapsack Problem",
+                "The Graph Coloring Problem"
+            ],
+            "correctAnswer": "The Halting Problem"
+        },
+        {
+            "question": "What type of graph cannot contain any directed cycles?",
+            "answers": [
+                "Bipartite Graph",
+                "Complete Graph",
+                "DAG",
+                "Eulerian Graph"
+            ],
+            "correctAnswer": "DAG"
+        },
+        {
+            "question": "Which algorithm is commonly used to find the minimum spanning tree of a graph by greedily adding the cheapest edge that doesn't form a cycle?",
+            "answers": [
+                "Dijkstra's Algorithm",
+                "Kruskal's Algorithm",
+                "Bellman-Ford Algorithm",
+                "A* Search"
+            ],
+            "correctAnswer": "Kruskal's Algorithm"
+        }
+    ]
+}

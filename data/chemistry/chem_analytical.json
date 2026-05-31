@@ -1,0 +1,106 @@
+{
+    "id": "chem_analytical",
+    "title": "Analytical Techniques",
+    "questions": [
+        {
+            "question": "What is the operational pH range of a solution that would be classified as strongly basic?",
+            "answers": [
+                "0 - 3",
+                "4 - 6",
+                "7",
+                "11 - 14"
+            ],
+            "correctAnswer": "11 - 14"
+        },
+        {
+            "question": "What equation is used to calculate the pH of a chemical buffer solution containing a weak acid and its conjugate base?",
+            "answers": [
+                "Nernst Equation",
+                "Henderson-Hasselbalch Equation",
+                "Van der Waals Equation",
+                "Arrhenius Equation"
+            ],
+            "correctAnswer": "Henderson-Hasselbalch Equation"
+        },
+        {
+            "question": "What separation technique resolves complex mixtures by distributing components between a stationary phase and a moving mobile phase?",
+            "answers": [
+                "Distillation",
+                "Chromatography",
+                "Centrifugation",
+                "Filtration"
+            ],
+            "correctAnswer": "Chromatography"
+        },
+        {
+            "question": "Which spectroscopic technique relies on transitions between nuclear spin states in a strong magnetic field to determine molecular structure?",
+            "answers": [
+                "UV-Vis Spectroscopy",
+                "Infrared (IR) Spectroscopy",
+                "Nuclear Magnetic Resonance (NMR)",
+                "Mass Spectrometry"
+            ],
+            "correctAnswer": "Nuclear Magnetic Resonance (NMR)"
+        },
+        {
+            "question": "What is the point in a volumetric titration where the added amount of titrant is chemically equivalent to the amount of analyte present?",
+            "answers": [
+                "Endpoint",
+                "Equivalence Point",
+                "Neutralization Point",
+                "Saturation Point"
+            ],
+            "correctAnswer": "Equivalence Point"
+        },
+        {
+            "question": "Which analytical method ionizes chemical species and sorts the ions based on their mass-to-charge ratio?",
+            "answers": [
+                "X-ray Crystallography",
+                "Mass Spectrometry",
+                "Atomic Absorption Spectroscopy",
+                "Gas Chromatography"
+            ],
+            "correctAnswer": "Mass Spectrometry"
+        },
+        {
+            "question": "Absorption of what type of electromagnetic radiation causes molecules to undergo vibrational transitions, useful for identifying functional groups?",
+            "answers": [
+                "Ultraviolet Light",
+                "Visible Light",
+                "Infrared Light",
+                "Radio Waves"
+            ],
+            "correctAnswer": "Infrared Light"
+        },
+        {
+            "question": "What indicator turns deep pink or magenta in basic solutions but remains completely colorless in acidic solutions?",
+            "answers": [
+                "Litmus Paper",
+                "Methyl Orange",
+                "Phenolphthalein",
+                "Bromothymol Blue"
+            ],
+            "correctAnswer": "Phenolphthalein"
+        },
+        {
+            "question": "What is an acid defined as under the Lewis definition of acids and bases?",
+            "answers": [
+                "A proton donor",
+                "A proton acceptor",
+                "An electron-pair donor",
+                "An electron-pair acceptor"
+            ],
+            "correctAnswer": "An electron-pair acceptor"
+        },
+        {
+            "question": "What standard analytical metric describes the closeness of a set of measurement values to each other, regardless of whether they match the true value?",
+            "answers": [
+                "Accuracy",
+                "Precision",
+                "Sensitivity",
+                "Resolution"
+            ],
+            "correctAnswer": "Precision"
+        }
+    ]
+}
