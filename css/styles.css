@@ -394,6 +394,119 @@ body {
     color: #dd2b61;
 }
 
+/* --- Post-Quiz Detailed Review Panel Styles --- */
+.score-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.score-summary-header {
+    text-align: center;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Set up a scrollable bounding height so long tests don't overflow the web view panel unexpectedly */
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 460px;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+/* Custom scrollbar handling for a premium systems application aesthetic */
+.review-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.review-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+/* Individual Review Card Box Structural Framework */
+.review-card {
+    background: #1e1e24;
+    /* Solid dark sub-box surface contrast background */
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 6px solid;
+    /* Use thick status highlight borders */
+    text-align: left;
+}
+
+.review-correct {
+    border-color: #dd2b61;
+    /* Highlights correct logic runs utilizing your signature hot pink track */
+    box-shadow: inset 0 0 10px rgba(221, 43, 97, 0.05);
+}
+
+.review-wrong {
+    border-color: #4a4a5a;
+    /* Muted gray boundary border signifying incorrect selections */
+}
+
+.review-number {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 6px;
+}
+
+.review-question-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+
+.review-meta-data {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.review-meta-data p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Text Highlights wrapping choice metrics data fields */
+.status-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.07);
+    margin-left: 4px;
+    font-family: monospace;
+    /* Monospace font makes technical quiz keys highly readable */
+}
+
+.review-correct .review-user-pick .status-pill {
+    color: #dd2b61;
+    /* Hot pink indicator highlights text when matching targets */
+}
+
+.review-wrong .review-user-pick .status-pill {
+    color: #ff5555;
+    /* Subtle warning text overlay specifying incorrect tracking choices */
+}
+
+.review-correct-pick .status-pill {
+    color: #dd2b61;
+}
+
 /* This block only activates on devices with screens narrower than 600px */
 @media (max-width: 600px) {
     .main-container h1 {

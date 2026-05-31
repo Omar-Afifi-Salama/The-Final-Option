@@ -318,16 +318,60 @@ submitButton.onclick = () => {
     }
 
     let finalScore = 0;
+
+    // 1. Build a container header for the total score count
+    scoreContainer.innerHTML = "";
+
+    // 2. Create a sub-wrapper element specifically to hold the long list of item reviews
+    const reviewListContainer = document.createElement("div");
+    reviewListContainer.className = "review-list";
+
+    // 3. Loop over every question to compute score and dynamically generate UI nodes
     activeQuizData.questions.forEach((q, idx) => {
-        if (q.answers[userAnswers[idx]] === q.correctAnswer) {
+        const userSelectedAnswerStr = q.answers[userAnswers[idx]];
+        const isCorrect = (userSelectedAnswerStr === q.correctAnswer);
+
+        if (isCorrect) {
             finalScore++;
         }
+
+        // Create the individual question review card box
+        const reviewCard = document.createElement("div");
+        reviewCard.className = `review-card ${isCorrect ? 'review-correct' : 'review-wrong'}`;
+
+        // Build internal structured markup via a safe template literal injection string
+        reviewCard.innerHTML = `
+            <div class="review-number">Question ${idx + 1}</div>
+            <div class="review-question-text">${q.question}</div>
+            <div class="review-meta-data">
+                <p class="review-user-pick">
+                    <strong>Your Selection:</strong> 
+                    <span class="status-pill">${userSelectedAnswerStr}</span>
+                </p>
+                ${!isCorrect ? `
+                <p class="review-correct-pick">
+                    <strong>Correct Answer:</strong> 
+                    <span class="status-pill">${q.correctAnswer}</span>
+                </p>
+                ` : ''}
+            </div>
+        `;
+
+        reviewListContainer.appendChild(reviewCard);
     });
 
+    // 4. Clear runtime session states safely
     clearQuizSession();
-    activeQuizData = null;
+    activeQuizData = null; // Drop exit warning intercept triggers cleanly
 
-    scoreContainer.innerHTML = `<h3>You Scored</h3><h1>${finalScore} / ${userAnswers.length}</h1>`;
+    // 5. Prepend the main grade overview summary layout card at the top
+    const scoreHeaderBlock = document.createElement("div");
+    scoreHeaderBlock.className = "score-summary-header";
+    scoreHeaderBlock.innerHTML = `<h3>You Scored</h3><h1>${finalScore} / ${userAnswers.length}</h1>`;
+
+    scoreContainer.appendChild(scoreHeaderBlock);
+    scoreContainer.appendChild(reviewListContainer); // Append the deep review list beneath it
+
     switchView(scoreView);
 };
 
